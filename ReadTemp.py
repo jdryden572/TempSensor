@@ -78,6 +78,6 @@ if __name__ == '__main__':
 	while True:
 		[tempC, tempF] = sensor.temp
 		if DEBUG: print('tempC=' + str(tempC), 'tempF=' + str(tempF))
-		writeToFile(tempC, tempF)
+		# writeToFile(tempC, tempF)
 		time.sleep(2)
 	
